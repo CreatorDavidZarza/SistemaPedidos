@@ -1,0 +1,16 @@
+1
+Hamburguesa
+8000
+10
+2
+Pizza
+9500
+12
+3
+Milanesa de carne
+12000
+8
+4
+CocaCola
+2500
+25
