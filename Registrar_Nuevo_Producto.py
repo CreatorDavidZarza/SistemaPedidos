@@ -3,7 +3,7 @@ from validaciones import pedir_nombre, pedir_entero, pedir_stock
 
 def agregar_productos():
     print("\n==============================")
-    print("     AGREGAR PRODUCTO")
+    print("     REGISTRAR NUEVO PRODUCTO")
     print("==============================")
     fileobj = open("productos.txt","r")
     id_producto = fileobj.readline().strip()

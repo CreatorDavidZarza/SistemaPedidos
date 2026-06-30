@@ -1,12 +1,12 @@
 from ver_productos import ver_productos
-from agregar_productos import agregar_productos
+from Registrar_Nuevo_Producto import agregar_productos
 
 def mostrar_menu():
     print("\n==============================")
-    print("     PRODUCTOS ")
+    print("     BIENVENIDO A FOODTRUCK ")
     print("==============================")
-    print("1 - Ver productos")
-    print("2 - Agregar producto")
+    print("1 - Realizar pedido")
+    print("2 - Registrar nuevo producto")
     print("3 - Ver estadísticas")
     print("4 - Salir")
 
