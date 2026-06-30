@@ -1,4 +1,4 @@
-from ver_productos import ver_productos
+from Realizar_pedidos import ver_productos
 from Registrar_Nuevo_Producto import agregar_productos
 
 def mostrar_menu():
