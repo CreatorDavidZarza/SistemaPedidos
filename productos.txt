@@ -14,3 +14,7 @@ Milanesa de carne
 CocaCola
 2500
 25
+5
+hamburguesa
+3
+3
