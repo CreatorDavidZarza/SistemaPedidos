@@ -27,7 +27,11 @@ def eeliminar_producto():
     archivo.close()
 
     # Pedir ID a eliminar
-    id_eliminar = pedir_entero("\nIngrese el ID del producto a eliminar: ")
+    id_eliminar = pedir_entero("Ingrese el ID del producto (0 para volver): ")
+
+    if id_eliminar == 0:
+     return
+
 
     archivo = open("productos.txt", "r")
     auxiliar = open("auxiliar.txt", "w")
