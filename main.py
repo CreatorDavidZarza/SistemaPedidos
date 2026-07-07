@@ -8,9 +8,9 @@ def mostrar_menu():
     print("==============================")
     print("1 - Realizar pedido")
     print("2 - Registrar nuevo producto")
-    print("3 - ")
-    print("4 - Salir")
-    print("5 - Prueba")
+    print("3 - Eliminar producto")
+    print("4 - ESTADISTICAS")
+    print("5 - SALIR DEL PROGRAMA")
 
 def main():
 
