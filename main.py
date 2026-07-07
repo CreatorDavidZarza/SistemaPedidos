@@ -1,5 +1,6 @@
 from Realizar_pedidos import ver_productos
 from Registrar_Nuevo_Producto import agregar_productos
+from Eliminar_producto import eeliminar_producto
 
 def mostrar_menu():
     print("\n==============================")
@@ -7,14 +8,15 @@ def mostrar_menu():
     print("==============================")
     print("1 - Realizar pedido")
     print("2 - Registrar nuevo producto")
-    print("3 - Ver estadísticas")
+    print("3 - ")
     print("4 - Salir")
+    print("5 - Prueba")
 
 def main():
 
     opcion = 0
 
-    while opcion != 4:
+    while opcion != 5:
 
         mostrar_menu()
 
@@ -27,10 +29,13 @@ def main():
             agregar_productos()
 
         elif opcion == 3:
-            print("\nOpción 3 seleccionada")
+            eeliminar_producto()
 
         elif opcion == 4:
             print("\nGracias por utilizar el sistema.")
+
+        elif opcion == 5:
+            print("\n prueba")
 
         else:
             print("\nOpción inválida.")
