@@ -18,3 +18,7 @@ CocaCola
 hamburguesa
 3
 3
+6
+hola
+90
+2
