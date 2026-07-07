@@ -22,3 +22,7 @@ hamburguesa
 hola
 90
 2
+7
+Pizza
+12000
+10
