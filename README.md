@@ -10,11 +10,10 @@ El proyecto incluye un archivo ejecutable (`main.exe`) para facilitar su uso.
 
 ## Pasos
 
-1. Descargar el proyecto.
-📦 : https://github.com/CreatorDavidZarza/SistemaPedidos/releases/latest
-2. Descomprimir el .zip que dice ejecutable-sistemapedidos
+1. VIDEO EXPLICATIVO DE COMO DESCARGAR: 
+2. Descargar 📦 : https://github.com/CreatorDavidZarza/SistemaPedidos/releases/latest
 3. Doble click en el .exe
-4. VIDEO EXPLICATIVO DE LA DESCARGA: https://youtu.be/cFo-c9SQp00
+   
 
 > **Importante:** Los archivos `productos.txt`, `pedidos.txt` y `estadisticas.txt` deben permanecer en la misma carpeta que `main.exe`, ya que contienen la información utilizada por el sistema.
 
