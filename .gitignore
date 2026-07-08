@@ -3,3 +3,4 @@ __psycache__/
 .vscode/
 build/
 dist/
+*.spec
