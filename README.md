@@ -25,7 +25,7 @@ El proyecto incluye un archivo ejecutable (`main.exe`) para facilitar su uso.
 - Zarza David
 - Kulman alex richart
 - Centurion schneider andré
-- Estudiante 4
+- Arce Serial Mariano Gabriel
 
 ---
 
