@@ -36,7 +36,7 @@ El proyecto incluye un archivo ejecutable (`main.exe`) para facilitar su uso.
 
 # 🎥 Video explicativo del funcionamiento interno del programa
 
-**YouTube:** [*(LINK - apretar CTRL+CLICK)*](https://youtu.be/KRX4IvoKPvM)
+**YouTube:** https://youtu.be/KRX4IvoKPvM
 
 ---
 
