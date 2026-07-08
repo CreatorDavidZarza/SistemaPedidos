@@ -10,7 +10,7 @@ El proyecto incluye un archivo ejecutable (`main.exe`) para facilitar su uso.
 
 ## Pasos
 
-1. VIDEO EXPLICATIVO DE COMO DESCARGAR: 
+1. VIDEO EXPLICATIVO DE COMO DESCARGAR: https://youtu.be/Jpm3HFP0sBs
 2. Descargar 📦 : https://github.com/CreatorDavidZarza/SistemaPedidos/releases/latest
 3. Doble click en el .exe
    
