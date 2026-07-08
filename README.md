@@ -2,6 +2,8 @@
 
 Sistema desarrollado en **Python** como Trabajo Grupal para la materia **Algoritmos**. Permite gestionar productos, realizar pedidos, controlar el stock y visualizar estadísticas utilizando archivos de texto.
 
+Link al repositorio de github, los links de los videos están en el readme del repositorio. 
+
 ---
 
 # ▶️ ¿Cómo ejecutar el programa?
