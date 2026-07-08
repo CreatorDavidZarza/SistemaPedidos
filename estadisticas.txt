@@ -7,3 +7,6 @@ CocaCola
 5
 hamburguesa
 3
+2
+Pizza
+4
