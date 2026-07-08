@@ -6,48 +6,37 @@ Sistema desarrollado en **Python** como Trabajo Grupal para la materia **Algorit
 
 # ▶️ ¿Cómo ejecutar el programa?
 
-El proyecto incluye un archivo ejecutable (`main.exe`) para facilitar su uso, por lo que **no es necesario tener Python instalado**.
+El proyecto incluye un archivo ejecutable (`main.exe`) para facilitar su uso.
 
 ## Pasos
 
 1. Descargar el proyecto.
-2. Abrir la carpeta **SistemaPedidos_Ejecutable**.
-3. Ejecutar **main.exe**.
-4. Utilizar el menú principal para acceder a las distintas funcionalidades del sistema.
+📦 Descargar: https://github.com/CreatorDavidZarza/SistemaPedidos/releases/latest
+2. Descomprimir el .zip que dice ejecutable-sistemapedidos
+3. Doble click en el .exe
 
 > **Importante:** Los archivos `productos.txt`, `pedidos.txt` y `estadisticas.txt` deben permanecer en la misma carpeta que `main.exe`, ya que contienen la información utilizada por el sistema.
 
 ---
 
-# ⚙️ Funcionalidades
+# 👥 Integrantes GRUPO D4
 
-- ✅ Registrar nuevos productos.
-- ✅ Visualizar productos registrados.
-- ✅ Realizar pedidos.
-- ✅ Actualizar automáticamente el stock.
-- ✅ Eliminar productos.
-- ✅ Consultar estadísticas de ventas.
-- ✅ Validar los datos ingresados por el usuario.
-
----
-
-# 👥 Integrantes
-
-- David Zarza
-- Integrante 2
-- Integrante 3
+- Zarza David
+- Kulman alex richart
+- Centurion schneider andré
+- Estudiante 4
 
 ---
 
 # 📚 Comisión
 
-**Comisión:** XXXX
+**Comisión:** D
 
 ---
 
-# 🎥 Video demostrativo
+# 🎥 Video explicativo del funcionamiento interno del programa
 
-**YouTube:** *(Agregar enlace)*
+**YouTube:** [*(LINK - apretar CTRL+CLICK)*](https://youtu.be/KRX4IvoKPvM)
 
 ---
 
