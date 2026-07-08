@@ -1,11 +1,11 @@
 2
 Pizza
 9500
-12
+7
 3
 Milanesa de carne
 12000
-8
+5
 4
 CocaCola
 2500
