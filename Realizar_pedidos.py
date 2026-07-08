@@ -111,7 +111,6 @@ def realizar_pedido():
 
                 # actualizando estadisticas
                 while True:
-                    l_incial = stat.tell()
                     l_id = stat.readline()
                     l_nombre = stat.readline()
 
