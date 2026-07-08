@@ -1,4 +1,4 @@
-from Realizar_pedidos import ver_productos
+from Realizar_pedidos import realizar_pedido
 from Registrar_Nuevo_Producto import agregar_productos
 from Eliminar_producto import eeliminar_producto
 from Estadisticas import stats
@@ -10,7 +10,7 @@ def mostrar_menu():
     print("1 - Realizar pedido")
     print("2 - Registrar nuevo producto")
     print("3 - Eliminar producto")
-    print("4 - ESTADISTICAS")
+    print("4 - Estadisticas")
     print("5 - SALIR DEL PROGRAMA")
 
 def main():
@@ -24,7 +24,7 @@ def main():
         opcion = int(input("\nSeleccione una opción: "))
 
         if opcion == 1:
-            ver_productos()
+            realizar_pedido()
 
         elif opcion == 2:
             agregar_productos()
