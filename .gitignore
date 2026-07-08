@@ -1,3 +1,5 @@
 __psycache__/
 *.pyc
 .vscode/
+build/
+dist/
