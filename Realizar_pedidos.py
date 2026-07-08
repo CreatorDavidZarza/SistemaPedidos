@@ -79,8 +79,9 @@ def realizar_pedido():
                 fileobj.close()
                 print("\nPedido realizado con éxito.")
 
-                # Actualizar stock
+                # Actualizar stock en productos
                 archivo = open("productos.txt", "r")
+                stat = open("estadisticas.txt", "r+")
                 auxiliar = open("auxiliar.txt", "w")
 
                 id_actual = archivo.readline().strip()
@@ -108,7 +109,28 @@ def realizar_pedido():
 
                     id_actual = archivo.readline().strip()
 
+                # actualizando estadisticas
+                while True:
+                    l_incial = stat.tell()
+                    l_id = stat.readline()
+                    l_nombre = stat.readline()
+
+                    pos_stock = stat.tell()
+                    l_stock = stat.readline()
+                    if l_id.strip() == str(id_buscado):
+                        nuevo_stock = int(l_stock.strip()) + cantidad
+                        stat.seek(pos_stock)
+                        stat.write(f"{nuevo_stock}\n")
+                        print(f"Cantidad de la ID {id_buscado} actualizada")
+                        break
+                    if not l_id:
+                        stat.write(f"{id_buscado}\n")
+                        stat.write(f"{nombre_producto}\n")
+                        stat.write(f"{cantidad}\n")
+                        break
+
                 archivo.close()
+                stat.close()
                 auxiliar.close()
                
                 remove("productos.txt")

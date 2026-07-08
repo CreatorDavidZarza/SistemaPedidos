@@ -21,7 +21,12 @@ def main():
 
         mostrar_menu()
 
-        opcion = int(input("\nSeleccione una opción: "))
+        while True:
+            try:
+                opcion = int(input("\nSeleccione una opción: "))
+                break
+            except ValueError:
+                print("\nOpción inválida.")
 
         if opcion == 1:
             realizar_pedido()
@@ -34,9 +39,6 @@ def main():
 
         elif opcion == 4:
             stats()
-
-        elif opcion == 5:
-            print("\n prueba")
 
         else:
             print("\nOpción inválida.")
