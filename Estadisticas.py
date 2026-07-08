@@ -1,0 +1,16 @@
+def stats():
+    print("\n==============================")
+    print("     ESTADISTICAS")
+    print("==============================")
+    f = open("estadisticas.txt","r")
+    id_producto = f.readline().strip()
+    while id_producto != "":
+        nombre_producto = f.readline().strip()
+        stock_producto = f.readline().strip()
+        print("ID:", id_producto)
+        print("Producto:", nombre_producto)
+        print("Stock Vendido:", stock_producto)
+        print("---------------------------")
+        id_producto = f.readline().strip()
+    f.close()
+    input("\nPresione ENTER para volver al menú...")

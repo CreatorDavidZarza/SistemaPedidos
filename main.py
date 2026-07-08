@@ -1,6 +1,7 @@
 from Realizar_pedidos import realizar_pedido
 from Registrar_Nuevo_Producto import agregar_productos
 from Eliminar_producto import eeliminar_producto
+from Estadisticas import stats
 
 def mostrar_menu():
     print("\n==============================")
@@ -32,7 +33,7 @@ def main():
             eeliminar_producto()
 
         elif opcion == 4:
-            print("\nGracias por utilizar el sistema.")
+            stats()
 
         elif opcion == 5:
             print("\n prueba")
